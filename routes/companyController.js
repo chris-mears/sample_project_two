@@ -1,5 +1,6 @@
 const express = require("express")
 const router = express.Router()
+const mongoose = require('mongoose');
 
 const Schema = require('../db/Schema.js')
 const CompanyModel = Schema.CompanyModel

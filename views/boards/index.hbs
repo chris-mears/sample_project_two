@@ -1,7 +1,8 @@
 <h2>{{company.name}}'s Snowboards</h2>
-
+<a href="/companies/{{company._id}}/snowboards/new">Create New Board</a>
 {{#each company.snowboards}}
     <div>
         <span>{{this.name}} - {{this.price}}</span>
+        <a href="/companies/{{../company._id}}/snowboards/{{this._id}}">View {{this.name}}</a>
     </div>
 {{/each}}
