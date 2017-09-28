@@ -72,3 +72,6 @@
 20. In the `scripts` object in your `package.json`, add `"start:dev": "nodemon ./bin/www"` below the start script.
 
 21. Now, when we want to run Nodemon as our dev server, we just have to type `npm run start:dev`.
+
+###Seed db on Heroku
+To run the seeds file in Heroku (DANGER): heroku run node path/filename
